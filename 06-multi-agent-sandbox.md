@@ -1,8 +1,4 @@
-# Lesson 6: Multi-Agent Routing & Sandboxing (~30 min)
-
-**Learning objectives:** Learners can define multiple agents in `agents.list`, route by channel/peer with `bindings`, and configure sandbox mode/scope/workspaceAccess and tool policies. They understand why sandboxing is the differentiator from "just run Claude Code."
-
----
+# Multi-Agent Routing
 
 ## Key Concepts
 
@@ -49,20 +45,6 @@ See: [Sandbox vs Tool Policy vs Elevated](https://docs.openclaw.ai/gateway/sandb
 
 See: [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing) (images + setup)
 
----
-
-## Lesson Plan
-
-| Segment | Duration | Activity |
-|---------|----------|----------|
-| Why multi-agent | 4 min | Use cases: family vs work; separate workspaces and tool sets. |
-| agents.list + bindings | 10 min | Add a second agent; add binding by channel or accountId; send message and show routing. |
-| Sandbox modes + scope | 8 min | Explain mode (off / non-main / all), scope (session / agent / shared), workspaceAccess. |
-| Tool policy + elevated | 5 min | allow/deny example; mention elevated as host escape hatch. |
-| Minimal sandbox enable | 3 min | Show minimal config snippet; `openclaw doctor`; optional build of default image. |
-
----
-
 ## Doc References
 
 - [Multi-Agent Routing](https://docs.openclaw.ai/concepts/multi-agent)
@@ -70,11 +52,3 @@ See: [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing) (images + setup)
 - [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing)
 - [Sandbox vs Tool Policy vs Elevated](https://docs.openclaw.ai/gateway/sandbox-vs-tool-policy-vs-elevated)
 - [Multi-Agent Sandbox & Tools](https://docs.openclaw.ai/multi-agent-sandbox-tools)
-
----
-
-## Checklist (Instructor)
-
-- [ ] Don't skip sandboxing: it's the security differentiator; learners should know mode/scope/workspaceAccess.
-- [ ] If Docker isn't available, explain config and show docs; skip live sandbox run.
-- [ ] Mention prompt-injection risks with smaller models and tool policy as mitigation (tease Lesson 7).

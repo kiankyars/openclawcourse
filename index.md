@@ -28,15 +28,6 @@ A structured curriculum for a **3-hour** Free Code Camp–style course on [OpenC
 - One of: WhatsApp, Telegram, or Discord account for pairing
 - Terminal comfort; no prior OpenClaw experience
 
----
-
-## Instructor Materials
-
-- **[Course Specification](course-spec.md)** — Learning outcomes, timing, and success criteria per module
-- **[Pedagogy Notes](pedagogy.md)** — Teaching notes, pacing, and common pitfalls
-
----
-
 ## Doc References (Canonical)
 
 All content is aligned to:
