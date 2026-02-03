@@ -14,9 +14,3 @@ See: [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing)
 - Elevated exec runs on host and bypasses sandbox.
 
 See: [Sandbox vs Tool Policy vs Elevated](https://docs.openclaw.ai/gateway/sandbox-vs-tool-policy-vs-elevated)
-
-### Docker hardening
-
-- Network isolation (default none); resource limits; optional custom image / setupCommand.
-
-See: [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing) (images + setup)

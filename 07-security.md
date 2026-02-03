@@ -1,4 +1,4 @@
-# Automation & Security
+# Security
 
 - **Prompt injection:** Malicious users can craft messages that trick the agent into running unintended commands. Smaller models are more susceptible. Mitigate by enabling sandbox mode and restricting tool access for channels that accept messages from untrusted or unknown senders.
 
