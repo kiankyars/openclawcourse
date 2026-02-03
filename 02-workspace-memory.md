@@ -1,7 +1,5 @@
 # Workspace & Memory
 
----
-
 ## Key Concepts
 
 - Config, credentials, sessions live under `~/.openclaw/`.
