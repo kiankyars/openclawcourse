@@ -1,3 +1,5 @@
 # What is OpenClaw?
 
-OpenClaw is a self-hosted messaging gateway that connects WhatsApp, Telegram, Discord, and iMessage to AI coding agents. Send a message from your phone, get an agent response with tool execution on your machine.
+- OpenClaw is a self-hosted messaging gateway that connects WhatsApp, Telegram, Discord, and iMessage to AI coding agents.
+    - The gateway is a single long-running process on your machine that maintains persistent connections to messaging platforms (WhatsApp, Telegram, Discord, etc.) and exposes a WebSocket control plane. When a message arrives on any channel, the gateway routes it to an embedded AI agent (Pi), which can execute tools locally—file operations, shell commands, browser automation. The agent's response flows back through the gateway to the original channel. This architecture lets you self-host the entire stack: you own the connections, the config, and the execution environment.
+- You will learn to send a message from your phone, get an agent response with tool execution on your machine.
