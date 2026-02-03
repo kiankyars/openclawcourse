@@ -1,0 +1,1 @@
+Let's setup a personal [assitant](https://docs.openclaw.ai/start/openclaw)!
